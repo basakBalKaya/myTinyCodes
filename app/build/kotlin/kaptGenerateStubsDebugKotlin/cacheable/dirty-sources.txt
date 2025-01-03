@@ -1,0 +1,7 @@
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\waterreminder\ui\theme\Color.kt
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\waterreminder\MainActivity.kt
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\waterreminder\WaterReminderWorker.kt
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\mytinycodes\ui\theme\Theme.kt
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\waterreminder\data\WaterDatabase.kt
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\waterreminder\ui\theme\Theme.kt
+C:\Users\balmb\myTinyCodes\app\src\main\java\com\example\mytinycodes\MainActivity.kt

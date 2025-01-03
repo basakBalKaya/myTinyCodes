@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Bardak çerçevesi -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1A237E"
+        android:strokeWidth="2"
+        android:pathData="M30,10 L70,10 L65,90 L35,90 Z"/>
+    
+    <!-- Su -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M33,40 L67,40 L63,87 L37,87 Z"/>
+    
+    <!-- Su yansıması -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M37,45 L45,45 L44,80 L38,80 Z"/>
+</vector> 

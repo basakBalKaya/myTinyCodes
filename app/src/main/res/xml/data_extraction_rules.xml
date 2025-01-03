@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="root" path="."/>
+        <exclude domain="file" path="device_config.xml"/>
+        <exclude domain="database" path="water_tracker.db"/>
+        <exclude domain="sharedpref" path="device.xml"/>
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="root" path="."/>
+        <exclude domain="file" path="device_config.xml"/>
+        <exclude domain="database" path="water_tracker.db"/>
+        <exclude domain="sharedpref" path="device.xml"/>
+    </device-transfer>
+</data-extraction-rules> 
