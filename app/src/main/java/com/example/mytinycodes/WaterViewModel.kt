@@ -158,4 +158,3 @@ class WaterViewModel(application: Application) : AndroidViewModel(application) {
         return total
     }
 } 
-} 
