@@ -8,6 +8,10 @@
         android:minSdkVersion="26"
         android:targetSdkVersion="34" />
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+
     <permission
         android:name="com.example.mytinycodes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -27,6 +31,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.MyTinyCodes" >
+        <receiver android:name="com.example.mytinycodes.notification.WaterReminderReceiver" />
+
         <activity
             android:name="com.example.mytinycodes.MainActivity"
             android:exported="true"
