@@ -5,9 +5,11 @@ drawable glass_water
 drawable ic_add_water
 drawable ic_launcher_foreground
 drawable widget_background
+drawable widget_button_background
 drawable widget_preview
 id addWater200Button
 id addWater500Button
+id headerLayout
 id waterAmountText
 id waterProgress
 layout water_tracker_widget

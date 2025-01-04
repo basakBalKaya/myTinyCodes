@@ -69,6 +69,7 @@ int drawable notification_template_icon_low_bg 0x7f040013
 int drawable notification_tile_bg 0x7f040014
 int drawable notify_panel_notification_icon_bg 0x7f040015
 int drawable widget_background 0x7f040016
+int drawable widget_button_background 0x7f040018
 int drawable widget_preview 0x7f040017
 int id accessibility_action_clickable_span 0x7f050000
 int id accessibility_custom_action_0 0x7f050001
@@ -119,6 +120,7 @@ int id consume_window_insets_tag 0x7f05002d
 int id dialog_button 0x7f05002e
 int id edit_text_id 0x7f05002f
 int id forever 0x7f050030
+int id headerLayout 0x7f05005b
 int id hide_ime_id 0x7f050031
 int id hide_in_inspector_tag 0x7f050032
 int id icon 0x7f050033
