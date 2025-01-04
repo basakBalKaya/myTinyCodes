@@ -24,6 +24,10 @@
         "source": "C:\\Users\\balmb\\.gradle\\daemon\\8.9\\com.example.mytinycodes.app-main-50:\\drawable\\ic_add_water.xml"
     },
     {
+        "merged": "C:\\Users\\balmb\\.gradle\\daemon\\8.9\\com.example.mytinycodes.app-merged_res-48:\\drawable_widget_button_background.xml.flat",
+        "source": "C:\\Users\\balmb\\.gradle\\daemon\\8.9\\com.example.mytinycodes.app-main-50:\\drawable\\widget_button_background.xml"
+    },
+    {
         "merged": "C:\\Users\\balmb\\.gradle\\daemon\\8.9\\com.example.mytinycodes.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\balmb\\.gradle\\daemon\\8.9\\com.example.mytinycodes.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
