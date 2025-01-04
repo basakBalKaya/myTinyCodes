@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\balmb\.gradle\caches\8.9\transforms\d971dbb190425da26e60d8c7173362d9\transformed\material3-1.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\balmb\.gradle\caches\8.9\transforms\b8ff3700e2bf5d66c741092c21b258b8\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\balmb\.gradle\caches\8.9\transforms\9d19caf56aec1bc80a147900568f13bb\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
@@ -83,8 +83,8 @@ ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:8:5-81
 	android:name
 		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:8:22-78
 application
-ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:10:5-33:19
-INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:10:5-33:19
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:10:5-43:19
+INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:10:5-43:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\balmb\.gradle\caches\8.9\transforms\cf3bd01bfa48bac89396b3fb8d96b85b\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\balmb\.gradle\caches\8.9\transforms\cf3bd01bfa48bac89396b3fb8d96b85b\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\balmb\.gradle\caches\8.9\transforms\e1114cd3b006325b02c7bd443a8f5c72\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
@@ -129,26 +129,44 @@ ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:20:9-22:4
 		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
 		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:21:13-63
-activity#com.example.mytinycodes.MainActivity
+receiver#com.example.mytinycodes.widget.WaterTrackerWidget
 ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:23:9-32:20
-	android:label
-		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:26:13-45
 	android:exported
-		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:24:13-54
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:26:13-28:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:27:17-84
+	android:name
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:27:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:29:13-31:69
+	android:resource
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:31:17-66
+	android:name
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:30:17-58
+activity#com.example.mytinycodes.ui.MainActivity
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:33:9-42:20
+	android:label
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:36:13-45
+	android:exported
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:35:13-36
 	android:theme
-		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:27:13-53
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:37:13-53
 	android:name
-		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:34:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:28:13-31:29
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:38:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml:40:27-74
 uses-sdk
 INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\balmb\myTinyCodes\app\src\main\AndroidManifest.xml

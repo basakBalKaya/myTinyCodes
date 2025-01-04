@@ -48,6 +48,7 @@ dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
 drawable glass_water
+drawable ic_add_water
 drawable ic_call_answer
 drawable ic_call_answer_low
 drawable ic_call_answer_video
@@ -68,6 +69,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable widget_background
+drawable widget_preview
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -106,6 +109,8 @@ id action_divider
 id action_image
 id action_text
 id actions
+id addWater200Button
+id addWater500Button
 id androidx_compose_ui_view_composition_context
 id async
 id blocking
@@ -154,6 +159,8 @@ id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
+id waterAmountText
+id waterProgress
 id wrapped_composition_tag
 integer status_bar_notification_info_maxnum
 layout custom_dialog
@@ -165,6 +172,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout water_tracker_widget
 mipmap ic_launcher
 mipmap ic_launcher_round
 string androidx_startup
@@ -269,3 +277,4 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 xml backup_rules
 xml data_extraction_rules
+xml water_tracker_widget_info
