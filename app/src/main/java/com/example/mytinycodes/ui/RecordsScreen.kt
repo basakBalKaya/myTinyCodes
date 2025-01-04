@@ -56,7 +56,7 @@ fun RecordsScreen(
         }
     }
 }
-
+//didn't try yet but i guess its working
 @Composable
 private fun WeeklyRecordsList(records: List<WaterRecord>) {
     LazyColumn(
